@@ -1,6 +1,8 @@
 # bejeweled-chains
 
-A code solution written in MokoM (invented programming language) to a popular game problem called "Bejeweled Chains" consisting of a square/rectangular grid of different-colored jewels. The game is played by swapping the positions of jewels that are horizontally or vertically adjacent to create chains of three or more jewels of the same color. You can refer to wikipedia for further gameplay details.
+A code solution of mine written in MokoM (invented programming language) to a popular game problem called "Bejeweled Chains" consisting of a square/rectangular grid of different-colored jewels. The game is played by swapping the positions of jewels that are horizontally or vertically adjacent to create chains of three or more jewels of the same color. 
+
+You can refer to wikipedia for further gameplay details.
 
 # Background
 
@@ -30,7 +32,7 @@ array(
 
 ## Problem - Bejeweled Chains
 
-Your task in this question is to write a function **count_chains** that accepts a bejeweled game board as described above (an array of array of numbers) and then counts and returns the number of chains in the given game board. Each continuous horizontal or vertical chain counts as a single chain, regardless of length. However if a horizontal chain intersects a vertical chain, they still count as separate chains. 
+My task in this problem was to write a function **count_chains** that accepts a bejeweled game board as described above (an array of array of numbers) and then counts and returns the number of chains in the given game board. Each continuous horizontal or vertical chain counts as a single chain, regardless of length. However if a horizontal chain intersects a vertical chain, they still count as separate chains. 
 
 Some examples:
 ```
@@ -51,9 +53,9 @@ array(
 ```
 The above has one chain (first row)
 
-You may assume that you are always given a proper game board: ie. an array of equal-length arrays of only integer values. The length and width of the board can however be arbitrary, the number of different colors of jewels is also arbitrary.
+I was to assume that I'll always be given a proper game board: ie. an array of equal-length arrays of only integer values. The length and width of the board can however be arbitrary, the number of different colors of jewels is also arbitrary.
 
-Your final solution should just define the **count_chains** function. You don't need to call it in any way, and you should not print anything. You may however define any number of helper functions to break down the task in a sensible way.
+My final solution was just to define the **count_chains** function. I didn't need to call it in any way. I was also permitted to define any number of helper functions to break down the task in a sensible way.
 
 Example code the evaluator would run:
 ```
