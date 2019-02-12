@@ -1,0 +1,2 @@
+# bejeweled-chains
+A code solution written in MokoM (invented programming language) to a popular game problem called "Bejeweled Chains" consisting of a square/rectangular grid of different-colored jewels. The game is played by swapping the positions of jewels that are horizontally or vertically adjacent to create chains of three or more jewels of the same color. You can refer to wikipedia for further gameplay details.
