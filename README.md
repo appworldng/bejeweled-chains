@@ -4,7 +4,7 @@ A code solution of mine written in MokoM (invented programming language) to a po
 
 You can refer to wikipedia for further gameplay details.
 
-# Background
+## Background
 
 We can represent a bejeweled game grid in MokoM with an array of array of numbers, with different numbers representing different colors. Consider the following board for example:
 ```
